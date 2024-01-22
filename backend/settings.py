@@ -45,7 +45,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist', #agregue en una lista negra los tokens que se estan usando
     'corsheaders',
+    # APPs
     'users',
+    'products',
 ]
 
 MIDDLEWARE = [
